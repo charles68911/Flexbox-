@@ -1,0 +1,39 @@
+.container{
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    border: 10px solid;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    padding: 1em;
+    text-align: center;
+    border: 10px solid gray;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+}
+.item-1{
+    flex-grow: 1;
+    color: white;
+    align-content: space-around;
+}
+.item-2{
+    flex-basis: 1;
+    color: white;
+    align-content: space-around;
+}
+.item-3{
+    flex-shrink: 1;
+    color: white;
+    align-content: space-around;
+}
+.item-4{
+    color: white;
+    align-content: space-around;
+}
